@@ -20,4 +20,4 @@ Este projeto tem como objetivo apresentar indicadores estratégicos e informaç�
 Caso seja validado internamente, o projeto poderá ser migrado para o repositório oficial da SESA para manutenção colaborativa.
 
 ## 👨‍💻 Desenvolvedor
-Desenvolvido por [Seu Nome], membro da equipe de TI da SESA/ES.
+Desenvolvido por mim, membro da equipe de TI da SESA/ES.
