@@ -89,32 +89,6 @@
       animation: fadeIn 0.3s ease-out forwards;
     }
 
-    .contraste {
-      filter: contrast(1.5) brightness(1.2);
-      background-color: #000 !important;
-      color: #fff !important;
-    }
-
-    .contraste a {
-      color: #ff0 !important;
-    }
-
-    .contraste button {
-      background-color: #ff0 !important;
-      color: #000 !important;
-    }
-
-    .contraste input,
-    .contraste select {
-      background-color: #fff !important;
-      color: #000 !important;
-    }
-
-    .contraste footer {
-      background-color: #000 !important;
-      color: #fff !important;
-    }
-
     @media (max-width: 768px) {
       .cabecalho {
         padding-top: 5rem;
@@ -198,11 +172,8 @@
   </style>
 </head>
 
-<body class="bg- text-black dark:bg-gray-900 dark:text-white m-t ">
-  <button id="openPopup"
-    class="fixed bottom-6 right-6  text-white px-4 py-2 rounded-full shadow-lg transition z-50">
-  </button>
-
+<body class="bg-gray-100">
+ 
   <div id="popupModal" class="fixed inset-0 bg-black bg-opacity-40 flex items-center justify-center hidden z-50">
     <div class="bg-white w-full max-w-md p-6 rounded-lg shadow-xl relative animate-fade-in">
       <button id="closePopup" class="absolute top-2 right-3 text-gray-500 text-xl font-bold hover:text-red-500">
@@ -211,8 +182,7 @@
       <h2 class="text-x font-ligth text-blue-500 mb-4 text-center">
         Plataformas Mais Acessadas
       </h2>
-      <ul id="mostAccessedList" class="space-y-2 text-sm text-gray-700">
-      </ul>
+     
     </div>
   </div>
 
@@ -257,10 +227,7 @@
   </div>
 
   <div>
-    <div class="span-2 col-md-1 col-lg-2 col-gov-bar col-gov-bar-left width: 0px; display: none; padding: 0px;">
-      <div class="secondary-bar secondary-bar-top"></div>
-      <div class="secondary-bar secondary-bar-bottom"></div>
-    </div>
+    
   </div>
 
 
@@ -269,17 +236,14 @@
 
 
 
-  <main class="flex-col flex items-center justify-start min-h-screen p-2 mt-[-90px] ">
+  <main class="flex flex-col items-center justify-start p-2 -mt-20">
     <h1
       class="text-5xl font-bold mb- font-family: OpenSans font-bold bg-gradient-to-r from-blue-900  to-pink-600 text-transparent bg-clip-text mt-[-90px] mb-[20px]">
     Observatório Capixaba de Direito à Saúde
     </h1>
     <br>
-  
-    <div id="cardContainer"
-      class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6 w-full max-w-6xl"></div>
-  
-    </div>
+
+
     <div class="flex flex-col md:flex-row gap-6 w-full max-w-7xl mt-1">
         <div class=" w-full md:w-1/2 bg-blue-50 rounded-lg shadow-md p-4 text-left">
             <h3 class="text-lg font-bold text-blue-900 mb-2">Sobre o Observatório</h3>
@@ -291,7 +255,7 @@
           </div>
           
 
-<main class="flex flex-col items-center justify-center min-h-[-0vh] p-49 ">
+<main class="flex flex-col items-center justify-center min-h-40[-10vh] p-1 ">
 
        <div class="bg-blue-50 rounded-t-2xl rounded-b-lg shadow-md p-4 flex items-center space-x-4 hover:scale-105 transition w-full max-w-[900px] mx-auto cursor-pointer">
             <img src="calendario.jpg" alt="Ícone de Calendário" class="h-16 w-16 object-contain">
@@ -330,28 +294,15 @@
             </div>
         </div>
         </div>
-
-
-
-
-
-
-
-    </div>
     </div>
 
-
-
-    
-
-    </div>
-    </div>
   </main>
 
+<br>
+<br>
 
-
-  <footer class="w-90 bg-gray-300 py-7 text-center text-sm text-gray-700">
-    <div class="max-w-6xl mx-auto px-6">
+  <footer class="w-90 bg-gray-300 py-4 text-center text-sm text-gray-700">
+    <div class="max-w-6xl mx-auto px-2">
       <p class="mb-2 font-semibold">SESA- Secretaria de Estado de Saúde do Espírito Santo</p>
       <p>Núcleo de Desenvolvimento De Sistemas - NEDTI | SESA ES</p>
       <p class="mt-2">&copy; 2025 Governo do Estado do Espírito Santo</p>
@@ -696,10 +647,7 @@
       }
     });
 
-
-
   </script>
 
 </body>
-
 </html>
